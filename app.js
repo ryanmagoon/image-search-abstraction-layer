@@ -3,8 +3,10 @@ const express = require('express'),
 
 const app = express();
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
+app.get('/:query', (req, res) => {
+    // https://api.cognitive.microsoft.com/bing/v5.0/images/search
+    
+    let 
 });
 
 app.listen(3000);
